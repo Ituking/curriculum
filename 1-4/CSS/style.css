@@ -25,15 +25,19 @@
 
  .right {
     width: 250px;
-    height: 150px;
-    background-color: #ff9e6b;
+    /* height: 150px;
+    background-color: #ff9e6b; */
+    float: left;
+}
+
+.center-top-left {
     float: left;
 }
 
 .center-top {
     width: 150px;
     height: 50px;
-    background-color: #dbd400;
+    background-color: #dbd400; 
 }
 
 .center-middle {
@@ -42,11 +46,17 @@
     background-color: #0093b7;
 }
 
-.center-bottom {
+.orange {
+    width: 100px;
+    height: 150px;
+    background-color: #ff9e6b;
+    float: right;
+}
+
+.right-bottom {
     width: 250px;
     height: 100px;
     background-color: #8c2727;
-    float: left;
 }
 
 .footer {
