@@ -18,6 +18,9 @@
     .right-top {
         width: 200px;
     }
+    .center-top, .center-middle {
+        width: 125px;
+    }
 }
 
 /* ウィンドウ幅が最大479pxまでの場合(スマホ用) */
