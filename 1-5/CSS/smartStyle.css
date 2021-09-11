@@ -1,0 +1,29 @@
+@media screen and (max-width: 479px) {
+    .header, .left, .right, .footer {
+        width: 200px;
+    }
+    .left, .right, .header-inner, .header-inner-left, .header-inner-center, .header-inner-right {
+        float: none;
+    }
+    .header, .right {
+        height: 250px;
+    }
+    .left, .footer {
+        height: 100px;
+    }
+    .header-inner {
+        width: 60px;
+        height: 160px;
+        right: 66px;
+        top: 40px;
+    }
+    .right-inner-up, .right-inner-center, .right-inner-bottom {
+        left: 23px;
+    }
+    .right-inner-up {
+        top: 20px;
+    }
+    .right-inner-center {
+        top: 95px;
+    }
+}
