@@ -5,18 +5,15 @@
  * 問①〜問④まであります。
  * for文・while文の仕組みを意識しながらコーディングしていきましょう！
  */
-import java.util.Scanner;
 public class Task1_5 {
     public static void main(String[] args) {
         
         // ① 「みかん」、「りんご」、「ぶどう」、「メロン」の値を設定した配列 fruits を作成してください。
-        String[] fruits = {
-            "みかん", "りんご", "ぶどう", "メロン"
-        };
-
+        String[] fruits = {"みかん", "りんご", "ぶどう", "メロン"};
+        char[] c = fruits.toCharArray();
         // ② for文を使って①で作成した配列を出力しなさい。
-        for (int i = 0; i < fruits.length; i++) {
-            System.out.println(fruits);
+        for (String i = 0; i < fruits.length; i++) {
+            System.out.println(fruits[i]);
         }
         
         // ③ 以下のwhile文の処理について、何をしているのかコメントを記入してください。
