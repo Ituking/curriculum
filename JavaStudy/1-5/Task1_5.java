@@ -17,8 +17,8 @@ public class Task1_5 {
         // System.out.println(fruits[3]);
 
         // ② for文を使って①で作成した配列を出力しなさい。
-        for (String i = 0; i < 3; i++) {
-            System.out.println(fruits[i);
+        for (int i = 0; i < fruits.length; i++) {
+            System.out.println(fruits[i]);
         }
         
         // ③ 以下のwhile文の処理について、何をしているのかコメントを記入してください。
@@ -52,8 +52,9 @@ public class Task1_5 {
         //     System.out.println(z + " || ");
         // }
         for (int x = 1; x <= 9; x++) {
+            System.out.print(x + " || ");
             for (int y = 1; y <= 9; y++) {
-                System.out.print(" " + x * y);
+                System.out.print( x * y + " | ");
             }System.out.println();
         }
     }
