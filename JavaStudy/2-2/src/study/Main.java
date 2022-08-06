@@ -18,6 +18,6 @@ public class Main {
 		// 変数名:「user」
 		User user = new User("hoge", 123, "abc123");
 		// ② ①のインスタンス変数より、アカウント情報をコンソール出力するメソッドを呼び出しなさい。
-		user.printAccountInfo("hoge", 123, "abc123");
+		user.printAccountInfo();
 	}
 }
